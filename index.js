@@ -3,12 +3,12 @@
 /**
  * static files (404.html, sw.js, conf.js)
  */
-const ASSET_URL = 'https://hunshcn.github.io/gh-proxy/'
+const ASSET_URL = 'https://luyuanbo79.github.io/gh-proxy/'
 // 前缀，如果自定义路由为example.com/gh/*，将PREFIX改为 '/gh/'，注意，少一个杠都会错！
 const PREFIX = '/'
 // 分支文件使用jsDelivr镜像的开关，0为关闭，默认关闭
 const Config = {
-    jsdelivr: 0
+    jsdelivr: 1
 }
 
 const whiteList = [] // 白名单，路径里面有包含字符的才会通过，e.g. ['/username/']
